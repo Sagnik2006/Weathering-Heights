@@ -20,7 +20,7 @@ body
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    height: max-content;
+    height: 90vh;
 }
 
 .search
