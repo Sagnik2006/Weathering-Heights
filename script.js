@@ -6,6 +6,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 async function checkWeather(city)
 {
     try {
+        city = city.trim()
         const response = await fetch(apiURL+city+'&appid='+apikey)
         var data = await response.json()
     
